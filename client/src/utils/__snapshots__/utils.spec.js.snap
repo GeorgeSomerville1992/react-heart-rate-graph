@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Basic Utils tests convertValues: correctly converts values into the right format 1`] = `
+Array [
+  Object {
+    "dateTime": "2018-03-28 13:00",
+    "maximum": 74,
+    "meanAverage": 72,
+    "minimum": 71,
+  },
+  Object {
+    "dateTime": "2018-03-28 18:01",
+    "maximum": 87,
+    "meanAverage": 71,
+    "minimum": 57,
+  },
+  Object {
+    "dateTime": "2018-03-29 18:00",
+    "maximum": 61,
+    "meanAverage": 57,
+    "minimum": 54,
+  },
+  Object {
+    "dateTime": "2018-03-30 03:00",
+    "maximum": 52,
+    "meanAverage": 52,
+    "minimum": 52,
+  },
+  Object {
+    "dateTime": "2018-03-31 05:00",
+    "maximum": 61,
+    "meanAverage": 58,
+    "minimum": 56,
+  },
+  Object {
+    "dateTime": "2018-04-01 21:00",
+    "maximum": 68,
+    "meanAverage": 66,
+    "minimum": 64,
+  },
+  Object {
+    "dateTime": "2018-04-02 19:00",
+    "maximum": 58,
+    "meanAverage": 57,
+    "minimum": 57,
+  },
+  Object {
+    "dateTime": "2018-04-03 08:00",
+    "maximum": 59,
+    "meanAverage": 58,
+    "minimum": 57,
+  },
+  Object {
+    "dateTime": "2018-04-04 09:00",
+    "maximum": 74,
+    "meanAverage": 72,
+    "minimum": 71,
+  },
+]
+`;
+
+exports[`Basic Utils tests filterCurrentSelectedMonth: returns values based on a selcted date 1`] = `
+Array [
+  Object {
+    "dateTime": "2018-04-01 21:00",
+    "maximum": 68,
+    "meanAverage": 66,
+    "minimum": 64,
+  },
+]
+`;
+
+exports[`Basic Utils tests filterCurrentSelectedMonth: returns values based on a selcted month 1`] = `
+Array [
+  Object {
+    "dateTime": "2018-04-01 21:00",
+    "maximum": 68,
+    "meanAverage": 66,
+    "minimum": 64,
+  },
+  Object {
+    "dateTime": "2018-04-02 19:00",
+    "maximum": 58,
+    "meanAverage": 57,
+    "minimum": 57,
+  },
+  Object {
+    "dateTime": "2018-04-03 08:00",
+    "maximum": 59,
+    "meanAverage": 58,
+    "minimum": 57,
+  },
+  Object {
+    "dateTime": "2018-04-04 09:00",
+    "maximum": 74,
+    "meanAverage": 72,
+    "minimum": 71,
+  },
+]
+`;
+
+exports[`Basic Utils tests getDateRange: returns a correct range 1`] = `
+Array [
+  2018-03-28T12:00:00.000Z,
+  2018-04-04T08:00:00.000Z,
+]
+`;
